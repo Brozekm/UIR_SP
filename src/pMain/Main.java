@@ -86,7 +86,7 @@ public class Main {
         String[] arr = tmp.trim().split("\\s+");
         file.setResult(arr);
         tmp = sc.nextLine();
-
+        file.setText(tmp);
 
         HashMap<String, Double> map = new HashMap<>();
         while(sc.hasNextLine()){
